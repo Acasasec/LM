@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE numeros SYSTEM "numeros.dtd">
+<numeros>
+   <numero1 letra="u" letra2="n" letra3="o">1</numero1>
+   <numero2 letra="d" letra2="o" letra3="s">22</numero2>
+   <numero6 letra="s" letra2="e" letra3="i" letra4="s">666666</numero6>
+</numeros>

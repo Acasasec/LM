@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT numeros (numero1, numero2, numero6)>
+<!ELEMENT numero1 (#PCDATA)>
+<!ELEMENT numero2 (#PCDATA)>
+<!ELEMENT numero6 (#PCDATA)>
+
+
+<!ATTLIST numero1
+        letra CDATA #REQUIRED
+        letra2 CDATA #REQUIRED
+        letra3 CDATA #REQUIRED>
+
+<!ATTLIST numero2
+      letra CDATA #REQUIRED
+      letra2 CDATA #REQUIRED
+      letra3 CDATA #REQUIRED>
+
+<!ATTLIST numero6
+      letra CDATA #REQUIRED
+      letra2 CDATA #REQUIRED
+      letra3 CDATA #REQUIRED
+      letra4 CDATA #REQUIRED>
+

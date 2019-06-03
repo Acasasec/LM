@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT figuras (figura+) >
+<!ELEMENT figura (nombre, lados*,aristas*, caras*)>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT lados ANY>
+<!ELEMENT aristas ANY>
+<!ELEMENT caras ANY>
+
+<!ATTLIST figura
+          tipo CDATA #REQUIRED>
+

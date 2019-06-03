@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT triangulos (triangulo+)>
+
+<!ELEMENT triangulo (#PCDATA)>
+
+<!ATTLIST triangulo
+        base CDATA #REQUIRED
+        altura CDATA #REQUIRED>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT equipos_de_futbol (equipo+)>
+<!ELEMENT equipo (nombre, ciudad, entrenador, jugadores)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT ciudad (#PCDATA)>
+  <!ELEMENT entrenador (#PCDATA)>
+  <!ELEMENT jugadores (jugador+)>
+
+<!ELEMENT jugador (nombre1, nacionalidad)>
+  <!ELEMENT nombre1 (#PCDATA)>
+  <!ELEMENT nacionalidad (#PCDATA)>
+
+<!ATTLIST jugador
+          posicion CDATA #REQUIRED>
